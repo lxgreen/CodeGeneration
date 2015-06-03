@@ -28,9 +28,7 @@ namespace Igloo.Tools
 
         public ClassCodeRegion(ClassRegionType classRegionType, ClassGenerator generator)
         {
-            // TODO: Complete member initialization
             RegionType = classRegionType;
-
             _generator = generator;
         }
 
