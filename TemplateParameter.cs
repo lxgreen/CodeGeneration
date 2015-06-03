@@ -7,7 +7,6 @@ namespace Igloo.Tools
         private T _value;
 
         private Func<T> _bindAction;
-        private Func<T> bindAction;
 
         public TemplateParameter(T value)
         {
