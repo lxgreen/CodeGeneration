@@ -13,6 +13,14 @@ namespace Igloo.Tools
         private Stack<ClassRegionType> _scope;
         private PropertyCollection _properties;
 
+        public virtual string DeclarationPattern
+        {
+            get
+            {
+                return "{0}{1} class {2}{3}";
+            }
+        }
+
         public PropertyCollection Properties
         {
             get
@@ -105,7 +113,7 @@ namespace Igloo.Tools
 
         public ClassModifiers Modifiers { get; set; }
 
-        public Template BaseClass { get; set; }
+        public virtual Template BaseClass { get; set; }
 
         public string NameSpace { get; set; }
 

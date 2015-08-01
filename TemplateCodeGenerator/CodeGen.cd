@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Igloo.Tools.AttributesRegion">
-    <Position X="10.5" Y="5.75" Width="1.75" />
+    <Position X="11.25" Y="5.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAgAAAABAAA=</HashCode>
       <FileName>AttributesRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.ClassCodeRegion">
-    <Position X="11.5" Y="1.5" Width="1.75" />
+    <Position X="12.5" Y="1.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAEBQIAAAAAAAAAAABAAAAAAAgAgAAAABAAA=</HashCode>
       <FileName>ClassCodeRegion.cs</FileName>
@@ -18,100 +18,101 @@
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Igloo.Tools.ClassGenerator">
-    <Position X="3.75" Y="7.5" Width="2" />
+    <Position X="24" Y="2.5" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAIBgAAQAAAEGAEAACEAAwQAAAgYIgQABAAAAAjCsA=</HashCode>
       <FileName>ClassGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.DeclarationRegion">
-    <Position X="15" Y="5.75" Width="1.75" />
+    <Position X="16" Y="5.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAIAAAAAAAAAAAAAEAAAAAgAAAAAABAAA=</HashCode>
       <FileName>DeclarationRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.MethodsRegion">
-    <Position X="3.5" Y="5.75" Width="1.5" />
+    <Position X="4.25" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>MethodsRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.NameSpaceRegion">
-    <Position X="8" Y="5.75" Width="1.75" />
+    <Position X="8.75" Y="5.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAgAAAABAAA=</HashCode>
       <FileName>NameSpaceRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.PrivateFieldsRegion">
-    <Position X="17.25" Y="5.75" Width="1.75" />
+    <Position X="18.5" Y="5.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>PrivateFieldsRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.PropertiesRegion">
-    <Position X="5.75" Y="5.75" Width="1.5" />
+    <Position X="6.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
       <FileName>PropertiesRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.UsingsRegion">
-    <Position X="12.75" Y="5.75" Width="1.5" />
+    <Position X="13.75" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAgAAAAAAAA=</HashCode>
       <FileName>UsingsRegion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.Template&lt;T1&gt;">
-    <Position X="14.25" Y="1.25" Width="1.5" />
+    <Position X="3.75" Y="10.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Templates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.Template">
-    <Position X="14.25" Y="3.5" Width="1.5" />
+    <Position X="3.75" Y="7.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAEAEAAIBAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
       <FileName>Templates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.Template&lt;T1, T2&gt;">
-    <Position X="16.5" Y="1.25" Width="1.5" />
-    <InheritanceLine Type="Igloo.Tools.Template&lt;T1&gt;" FixedFromPoint="true">
-      <Path>
-        <Point X="15.75" Y="2.188" />
-        <Point X="16.5" Y="2.188" />
-      </Path>
-    </InheritanceLine>
+    <Position X="3.75" Y="13.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Templates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.Template&lt;T1, T2, T3&gt;">
-    <Position X="18.5" Y="1.25" Width="1.75" />
+    <Position X="3.5" Y="15.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Templates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.Template&lt;T1, T2, T3, T4&gt;">
-    <Position X="20.5" Y="1.25" Width="2" />
+    <Position X="3.5" Y="18.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Templates.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Igloo.Tools.CtorRegion">
-    <Position X="19.75" Y="5.75" Width="1.5" />
+    <Position X="21" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CtorRegion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Igloo.Tools.StructGenerator">
+    <Position X="27.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructGenerator.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

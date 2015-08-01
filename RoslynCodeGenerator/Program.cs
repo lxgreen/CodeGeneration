@@ -4,7 +4,7 @@ namespace RoslynCodeGenerator
     {
         private static void Main(string[] args)
         {
-            ClassGenerator classGenerator = new ClassGenerator(@"using System;
+            ClassGenerator classGenerator = new ClassGenerator(@"using Systems;
 namespace Igloo
 {
     [MessageInfoData((uint)12345)]
@@ -17,6 +17,7 @@ namespace Igloo
     }
 }");
             var n = classGenerator.ClassName;
+            classGenerator.ClassName = "Test";
         }
     }
 }

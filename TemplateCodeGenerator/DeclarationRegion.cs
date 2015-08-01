@@ -16,7 +16,7 @@ namespace Igloo.Tools
 
             var inheritance = RenderInheritance();
 
-            writer.WriteLine(Generator.CurrentIndent, string.Format("{0}{1} class {2}{3}",
+            writer.WriteLine(Generator.CurrentIndent, string.Format(Generator.DeclarationPattern,
                 Generator.AccessModifier.ToString().ToLower(), modifiers, Generator.Name, inheritance));
             writer.WriteLine(Generator.CurrentIndent, "{");
         }
