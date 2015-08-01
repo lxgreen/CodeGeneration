@@ -8,8 +8,19 @@ namespace Igloo.Tools
 
         public string Type { get; set; }
 
-        public Property(string type, string name)
+        public bool IsAuto { get; set; }
+
+        public Template Getter { get; set; }
+
+        public Template Setter { get; set; }
+
+        public Property(string type, string name) : this(type, name, true)
         {
+        }
+
+        public Property(string type, string name, bool isAuto)
+        {
+            IsAuto = isAuto;
             Type = type;
             Name = name;
         }
